@@ -70,7 +70,6 @@ Watch this demo video of the working system that demonstrates how the Streamlit 
 [![Movie Recommender Demo](path/to/demo_thumbnail.png)](https://youtu.be/your_video_link)
 
 
-
 ## Required Libraries
 
 The following libraries are required to run this project:
