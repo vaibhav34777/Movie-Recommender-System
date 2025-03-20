@@ -49,8 +49,8 @@ After obtaining normalized embeddings, the **cosine similarity** between the use
 ## Training and Evaluation
 
 - **Loss Curve:**  
-  The training process is monitored using a loss curve.  
-  ![Training Loss Curve](output/loss.png)
+  The training process is monitored using a loss curve, the final training loss is 0.082 and the test loss is 0.097. 
+  <img src="output/loss.png" alt="Training Loss Curve" width="600"/>
 
 - **Scalers:**  
   Feature inputs and target ratings are normalized using `StandardScaler` and `MinMaxScaler`, respectively.
@@ -86,18 +86,3 @@ Install these libraries using the provided `requirements.txt` or via pip:
 
 ```bash
 pip install tensorflow pandas numpy scikit-learn streamlit matplotlib
-
-## Future Enhancements
-
-- **Hybrid Recommendations:**  
-  Explore integrating collaborative filtering methods to complement content-based predictions.
-- **Enhanced Feature Engineering:**  
-  Incorporate additional metadata (e.g., cast, director, movie synopsis) to further enrich movie representations.
-- **UI Improvements:**  
-  Add movie posters, detailed descriptions, and interactive visualizations in the Streamlit app.
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
-
