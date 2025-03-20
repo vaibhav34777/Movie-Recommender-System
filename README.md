@@ -41,7 +41,7 @@ The model is built using **two separate networks**:
 - **Movie Network:**  
   Processes movie feature vectors including release year, one-hot encoded genre features, and average ratings.  
   **Architecture:**  
-  - Input layer → Dense (256, ReLU) → Dense (128, ReLU) → Dense (32)  
+  - Input layer → Dense (512, ReLU) → Dense (256, ReLU) → Dense (32)  
   - **Normalization:** Similarly, an L2 normalization layer is applied to generate unit-normalized movie embeddings.
 
 After obtaining normalized embeddings, the **cosine similarity** between the user and movie vectors is computed as a simple dot product. This similarity score is used to rank movies for recommendation.
@@ -49,8 +49,8 @@ After obtaining normalized embeddings, the **cosine similarity** between the use
 ## Training and Evaluation
 
 - **Loss Curve:**  
-  The training process is monitored using a loss curve, which is saved as an image (e.g., `training_loss_curve.png`).  
-  *[Insert training loss, test loss details, and the loss curve image here]*
+  The training process is monitored using a loss curve.  
+  ![Training Loss Curve](output/loss.png)
 
 - **Scalers:**  
   Feature inputs and target ratings are normalized using `StandardScaler` and `MinMaxScaler`, respectively.
@@ -69,7 +69,24 @@ Watch this demo video of the working system that demonstrates how the Streamlit 
 
 [![Movie Recommender Demo](path/to/demo_thumbnail.png)](https://youtu.be/your_video_link)
 
-*(Replace the placeholder paths and links with your actual video thumbnail and URL.)*
+
+
+## Required Libraries
+
+The following libraries are required to run this project:
+
+- **TensorFlow** (>=2.17.0)
+- **Keras** (integrated with TensorFlow)
+- **Pandas**
+- **NumPy**
+- **Scikit-learn**
+- **Streamlit**
+- **Matplotlib** (for plotting training loss curves, optional)
+
+Install these libraries using the provided `requirements.txt` or via pip:
+
+```bash
+pip install tensorflow pandas numpy scikit-learn streamlit matplotlib
 
 ## Future Enhancements
 
