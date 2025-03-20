@@ -49,7 +49,7 @@ After obtaining normalized embeddings, the **cosine similarity** between the use
 ## Training and Evaluation
 
 - **Loss Curve:**  
-  The training process is monitored using a loss curve, the final training loss is 0.082 and the test loss is 0.097. 
+  We have used the MeanSquaredLoss for this model and the final training loss is 0.082 and the test loss is 0.097. 
   <img src="output/loss.png" alt="Training Loss Curve" width="600"/>
 
 - **Scalers:**  
