@@ -67,7 +67,7 @@ After obtaining normalized embeddings, the **cosine similarity** between the use
 
 Watch this demo video of the working system that demonstrates how the Streamlit app recommends movies based on user inputs:
 
-[![Movie Recommender Demo](path/to/demo_thumbnail.png)](https://youtu.be/your_video_link)
+|[(https://drive.google.com/file/d/1n4rDVL9YHk58wh86Hzqs0B2DbSIlhe9P/view?usp=drive_link)]
 
 
 ## Required Libraries
@@ -86,7 +86,6 @@ Install these libraries using the provided `requirements.txt` or via pip:
 
 ```bash
 pip install tensorflow pandas numpy scikit-learn streamlit matplotlib
-
 
 ## Future Enhancements
 
