@@ -67,7 +67,7 @@ After obtaining normalized embeddings, the **cosine similarity** between the use
 
 Watch this demo video of the working system that demonstrates how the Streamlit app recommends movies based on user inputs:
 
-|[(https://drive.google.com/file/d/1n4rDVL9YHk58wh86Hzqs0B2DbSIlhe9P/view?usp=drive_link)]
+|[https://drive.google.com/file/d/1RytqQLxyQKSWyIYNwpg9vuP-rSjIc5JP/view]
 
 
 ## Required Libraries
