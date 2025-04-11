@@ -2,7 +2,6 @@ import tensorflow as tf
 from tensorflow as keras
 
 # MODEL DEFINITION
-import tensorflow as tf
 
 # Named function that can be fetched during training
 def my_l2_normalize(x, tf=tf):
