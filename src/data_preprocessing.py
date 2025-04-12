@@ -7,8 +7,8 @@ import keras
 import re
 
 # importing the ml-latest-small dataaset
-movies=pd.read_csv('movie-lens/ml-latest-small/movies.csv')
-ratings=pd.read_csv('movie-lens/ml-latest-small/ratings.csv')
+movies=pd.read_csv('movies.csv')
+ratings=pd.read_csv('ratings.csv')
 
 # PREPARING THE MOVIES TRAINING SET
 # only taking movies of popular genres and movies after year 2000
